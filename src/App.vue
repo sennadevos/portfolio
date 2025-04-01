@@ -1,6 +1,9 @@
 <script setup>
+import HeroSection from "./sections/HeroSection.vue";
 </script>
 
 <template>
-  <p>Hello!</p>
+  <div>
+    <HeroSection />
+  </div>
 </template>
