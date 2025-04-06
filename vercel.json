@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "sennadevos.nl"
+        }
+      ],
+      "destination": "https://sennadevos.com/nl/:1",
+      "permanent": true
+    }
+  ]
+}
