@@ -46,7 +46,7 @@ onMounted(() => {
               <a href="/resume/en_compact.pdf" target="_blank" rel="noopener noreferrer" class="hidden focus:outline-none">{{ t('compact_en') }}</a>
             </ul>
           </div>
-          <a href="#contact" class="rounded-md bg-green-500 px-3 py-2 text-sm font-semibold text-white shadow-lg shadow-green-500/50 focus:outline-none h-fit">{{ t('contact_button')}}</a>
+          <a href="#contact" class="hidden rounded-md bg-green-500 px-3 py-2 text-sm font-semibold text-white shadow-lg shadow-green-500/50 focus:outline-none h-fit">{{ t('contact_button')}}</a>
         </div>
       </div>
     </div>
