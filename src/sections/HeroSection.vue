@@ -8,6 +8,7 @@ import {useI18n} from "vue-i18n";
 const { t } = useI18n()
 
 const isMobile = ref(false)
+const isResumeDropdownOpen = ref(false)
 
 onMounted(() => {
   const checkMobile = () => {
@@ -36,8 +37,16 @@ onMounted(() => {
           <p class="mt-4 text-lg sm:text-xl">{{ t('bio') }}</p>
         </div>
         <div class="px-4 flex gap-5">
-          <a href="#" class="rounded-md bg-cyan-500 px-3 py-2 text-sm font-semibold text-white shadow-lg shadow-cyan-500/50 focus:outline-none">Download {{ t('cv')}}</a>
-          <a href="#contact" class="rounded-md bg-green-500 px-3 py-2 text-sm font-semibold text-white shadow-lg shadow-green-500/50 focus:outline-none">{{ t('contact_button')}}</a>
+          <div class="h-fit bg-teal-600 shadow-lg shadow-cyan-500/50 rounded-md overflow-hidden">
+            <button @click="isResumeDropdownOpen = !isResumeDropdownOpen" class="bg-cyan-500 w-full rounded-b-sm px-3 py-2 text-sm font-semibold text-white focus:outline-none">Download {{ t('cv')}}</button>
+            <ul v-if="isResumeDropdownOpen" class="flex flex-col text-xs font-semibold text-white space-y-2 px-4 py-2">
+              <a href="/resume/nl_detailed.pdf" target="_blank" rel="noopener noreferrer" class="focus:outline-none">{{ t('detailed_nl') }}</a>
+              <a href="/resume/nl_compact.pdf" target="_blank" rel="noopener noreferrer" class="focus:outline-none">{{ t('compact_nl') }}</a>
+              <a href="/resume/en_detailed.pdf" target="_blank" rel="noopener noreferrer" class="hidden focus:outline-none">{{ t('detailed_en') }}</a>
+              <a href="/resume/en_compact.pdf" target="_blank" rel="noopener noreferrer" class="hidden focus:outline-none">{{ t('compact_en') }}</a>
+            </ul>
+          </div>
+          <a href="#contact" class="rounded-md bg-green-500 px-3 py-2 text-sm font-semibold text-white shadow-lg shadow-green-500/50 focus:outline-none h-fit">{{ t('contact_button')}}</a>
         </div>
       </div>
     </div>
