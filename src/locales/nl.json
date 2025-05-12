@@ -5,6 +5,11 @@
   "compact_nl": "Compact Nederlands",
   "detailed_en": "Gedetaileerd Engels",
   "compact_en": "Compact Engels",
+  "about": {
+    "title": "Over Mij",
+    "intro": "Sinds mijn 12de ben ik gepassioneerd bezig met programmeren. Sinds dien heb ik al meerdere waardevolle ervaringen opgedaan als software developer. Naast mijn werk als ontwikkelaar, ben ik ook actief als bouwhulp. Mijn nieuwsgierigheid en leergierigheid drijven me om te begrijpen hoe alles achter de schermen werkt.",
+    "more": "Mijn drang om te blijven leren heeft me geholpen om me snel aan te passen aan nieuwe technologieën en uitdagingen. Het ontwikkelen van software en het verbeteren van processen is niet alleen mijn werk, maar ook mijn passie."
+  },
   "legal": {
     "rightsReserved": "Alle rechten voorbehouden",
     "privacyPolicy": "Privacyverklaring",
