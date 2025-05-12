@@ -1,12 +1,15 @@
 <script setup>
 import HeroSection from "./sections/HeroSection.vue";
-
-import { useI18n } from "vue-i18n";
-const { t } = useI18n()
+import Footer from "./sections/Footer.vue";
+import AboutSection from "./sections/AboutSection.vue";
+import HelpSection from "./sections/HelpSection.vue";
 </script>
 
 <template>
   <div>
     <HeroSection />
+    <AboutSection />
+    <HelpSection />
+    <Footer />
   </div>
 </template>

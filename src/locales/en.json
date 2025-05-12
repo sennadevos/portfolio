@@ -4,5 +4,21 @@
   "detailed_nl": "Detailed Dutch",
   "compact_nl": "Compact Dutch",
   "detailed_en": "Detailed English",
-  "compact_en": "Compact English"
+  "compact_en": "Compact English",
+  "about": {
+    "title": "About Me",
+    "intro": "Since I was 12 years old, I’ve been passionate about programming, gaining valuable experience as a software developer. In addition to my work as a developer, I am also active as a builder’s assistant. My curiosity and eagerness to learn drive me to understand how things work behind the scenes.",
+    "more": "My desire to keep learning has helped me adapt quickly to new technologies and challenges. Developing software and improving processes is not only my job but also my passion."
+  },
+  "help": {
+    "title": "Need Help?",
+    "intro": "Are you a company or an individual looking for assistance with automation, small backend projects, or technical solutions? Feel free to get in touch! I will decide whether to take on the project based on the task and my availability.",
+    "details": "Whether it's simplifying your work processes, automating repetitive tasks, or improving systems, I'm here to help. Don’t hesitate to ask, and who knows, we might collaborate on your project!",
+    "cta": "Contact Me"
+  },
+  "legal": {
+    "rightsReserved": "All rights reserved",
+    "privacyPolicy": "Privacyverklaring",
+    "termsAndConditions": "Terms and Conditions"
+  }
 }
