@@ -10,6 +10,12 @@
     "intro": "Sinds mijn 12de ben ik gepassioneerd bezig met programmeren. Sinds dien heb ik al meerdere waardevolle ervaringen opgedaan als software developer. Naast mijn werk als ontwikkelaar, ben ik ook actief als bouwhulp. Mijn nieuwsgierigheid en leergierigheid drijven me om te begrijpen hoe alles achter de schermen werkt.",
     "more": "Mijn drang om te blijven leren heeft me geholpen om me snel aan te passen aan nieuwe technologieën en uitdagingen. Het ontwikkelen van software en het verbeteren van processen is niet alleen mijn werk, maar ook mijn passie."
   },
+  "help": {
+    "title": "Hulp Nodig?",
+    "intro": "Ben je een bedrijf of particulier en ben je op zoek naar iemand die kan helpen met automatisering, kleine backend-projecten of technische oplossingen? Neem gerust contact met me op! Ik sta altijd open voor nieuwe uitdagingen, en ik beslis of ik de klus aanneem op basis van de opdracht en mijn beschikbaarheid.",
+    "details": "Of het nu gaat om het vereenvoudigen van je werkprocessen, het automatiseren van repetitieve taken of het verbeteren van systemen, ik ben er om te helpen. Aarzel niet om te vragen, en wie weet kunnen we samenwerken aan jouw project!",
+    "cta": "Neem Contact Op"
+  },
   "legal": {
     "rightsReserved": "Alle rechten voorbehouden",
     "privacyPolicy": "Privacyverklaring",
