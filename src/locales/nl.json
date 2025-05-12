@@ -4,5 +4,10 @@
   "detailed_nl": "Gedetaileerd Nederlands",
   "compact_nl": "Compact Nederlands",
   "detailed_en": "Gedetaileerd Engels",
-  "compact_en": "Compact Engels"
+  "compact_en": "Compact Engels",
+  "legal": {
+    "rightsReserved": "Alle rechten voorbehouden",
+    "privacyPolicy": "Privacyverklaring",
+    "termsAndConditions": "Algemene voorwaarden"
+  }
 }
