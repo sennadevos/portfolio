@@ -23,7 +23,9 @@ function handleScroll() {
 onMounted(() => {
   // 5-second delay before showing arrow
   setTimeout(() => {
-    showArrow.value = true
+    if (window.scrollY < 50) {
+      showArrow.value = true
+    }
   }, 1500)
 
   window.addEventListener('scroll', handleScroll)
